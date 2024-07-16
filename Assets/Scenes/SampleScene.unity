@@ -693,8 +693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SpawnAmount: 100
   m_SpawnDelay: 0.08
-  m_Speed: 15
-  m_Unit: {fileID: 6784992726186071965, guid: 4bc2c9e31cf654936b06fd7ebcbf1c6a, type: 3}
+  m_Speed: 10
+  m_Unit: {fileID: 6784992726186071965, guid: 6025ebbbb977e43f99faf922aab2d10b, type: 3}
 --- !u!114 &1786444218
 MonoBehaviour:
   m_ObjectHideFlags: 0
