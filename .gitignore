@@ -1,21 +1,23 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+/[Ss]creen[Ss]hots
+/[Rr]ecordings
+Keys
+
+/UserSettings/
+# UserSettings/*
+# !UserSettings/Layouts/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
-# Recordings can get excessive in size
-/[Rr]ecordings/
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -25,6 +27,11 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
+.vsconfig
+
+# Jetbrains Rider cache directory
+.idea/
 
 # Gradle cache directory
 .gradle/
@@ -59,7 +66,7 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.app
+*.unitypackage.meta
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -70,3 +77,23 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+RiderScriptEditorPersistedState.asset
+mono_crash.*.json
+mono_crash.*.blob
+
+
+QuickSearch.settings
+UMotionData
+Assets/Standard Assets/UMotionEditor/Plugins/Windows
+Assets/Art/Reference*
+
+Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data/PWBData.txt
+Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data/PWBData.txt.meta
+PWBData*
+Settings.json
+Assets/RiderFlow.UserData
+Assets/ImageRechannel.meta
+Assets/ImageRechannel/
+/ServerData/
+/CCDBuildData/
